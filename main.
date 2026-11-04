@@ -1,0 +1,9 @@
+[General]
+bypass-system = true
+ipv6 = false
+dns-server = system
+
+[Rule]
+DOMAIN-SUFFIX,localhost,DIRECT
+DOMAIN-SUFFIX,local,DIRECT
+FINAL,DIRECT
